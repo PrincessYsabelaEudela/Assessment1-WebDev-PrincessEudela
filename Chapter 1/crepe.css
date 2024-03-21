@@ -1,0 +1,18 @@
+body{
+    font-family: Arial, sans-serif;/* Set the font family for the entire document */
+    margin: 0;/* Remove default margin */
+    padding: 0;/* Remove default padding */
+    display: flex;/* Use flexbox layout for centering content */
+    justify-content: center;/* Horizontally center content */
+    line-height: 1.5; /* Set the line height for better readability */
+    background-color: #f0f0f0; /* Set the background color for the entire page */
+}
+
+.box{
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    width: 600;/* Set the width of the box */
+    height:1000;/* Set the height of the box */
+    padding: 30px;/* Add padding inside the box */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);/* Add a box shadow for a subtle effect */
+    background-color: rgb(255, 255, 255);/* Set the background color of the box */
+}

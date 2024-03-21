@@ -1,0 +1,40 @@
+/* the container of the image */
+.container {
+    margin: 9px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 32%;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* styling for the images inside the container */
+.container img{
+    width: 100%;
+    height: 50%;
+    object-fit: cover;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    filter: brightness(50%);
+}
+/* hover effect on images */
+.container img:hover{
+    filter: brightness(100%);
+}
+/* styling for the image description */
+.desc {
+    padding: 20px;
+    text-align: center;
+    font-family: Georgia;
+  }
+/* styling for links in the description */
+.desc a{
+    color: blue;
+}
+/* styling for the heading */
+h1{
+    font-family:'lucida Handwriting', cursive; 
+    text-align: center; 
+    padding: 30px; 
+    font-size: 50px;;
+}

@@ -1,0 +1,111 @@
+/* position and bg color of the nav bar*/
+.menu{
+    background-color: #03719E;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+
+}
+/* styling for links in the nav bar  */
+.menu a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 15px 17px;
+    text-decoration: none;
+    font-size: 17px;
+}
+/* hover effect for links in the navigation bar */
+.menu a:hover{
+    background-color: #4492b1;
+    color: black;
+}
+
+/* active link styling */
+.menu a.active{
+    background-color: #4492b1;
+    color: black;
+}
+/* general styling for the body content */
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Garamond, serif;
+    background-color: #ffffff;
+    line-height: 1.5;
+    font-size: 20px;
+}
+/* styling for the main header  */
+.belle{
+    text-align: center;
+    padding: 30px;
+}
+/* color of the text in main header */
+.belle a{
+    color: black;
+}
+/* hover effect for links in the main header */
+.belle a:hover{
+    color: #03719E;
+}
+
+/* padding correction for the main content */
+.fill{
+    margin-top: -20px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+/* styling for the "Read more" button */
+.buttonreadmore{
+    background-color: #03719E;
+    border: none;
+    padding: 10 25px;
+    transition: background-color 0.3s ease;
+
+}
+/* hover effect for the "Read more" button */
+.buttonreadmore:hover{
+    background-color:#4592b0;
+
+}
+
+/* styling for text in the "Read more" button */
+.buttonreadmore a{
+    color: white;
+    text-decoration-line: none;
+    transition: color 0.3 ease;
+}
+/* hover effect for text in the "Read more" button */
+.buttonreadmore a:hover{
+    color: black;
+}
+
+/* styling for tables */
+table {
+    border-collapse: collapse; 
+    table-layout: fixed;
+    width: 100%;
+} 
+
+/* styling for table headers and cells */
+th,td{
+    border-bottom: 1px solid #0000004d;
+    height: 30px;  
+    text-align: left;
+    padding: 10px;
+}
+
+/* footer*/
+footer{
+    background-color: #03719E;
+    color: #03719E;
+    text-indent:-99999px;
+}
+/* heading*/
+h2{
+    border-bottom:1px solid #4592b0; 
+    width:auto; 
+    padding-bottom:1px;
+    
+}
