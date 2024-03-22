@@ -1,0 +1,21 @@
+<html>
+    <head>
+    <link rel="stylesheet" href="calculator.css" type="text/css">
+    </head>
+    <body>
+        <div id="calculator">
+            <center>
+                <br><br>
+                <label style="margin-top: 500px;">Amount</label><br><br>
+                <input type="number" placeholder="Enter Amount" oninput="VatConverter(this.value)" onchange="VatConverter(this.value)">
+           
+                <p>Vat 5% <span id="vat5"></span></p><br>
+                <p>Vat 10% <span id=vat10></span></p>
+           
+            </center>
+        </div>
+
+        <script src="calculator.js" type="text/javascript"></script>
+
+    </body>
+</html>

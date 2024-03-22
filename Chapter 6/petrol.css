@@ -1,0 +1,68 @@
+/* resetting default styles and setting up the layout */
+body{
+    font-family: Arial, sans-serif; /* set font for the entire page */
+    margin: 0; /* remove default margin */
+    padding: 0; /* remove default padding */
+    display: flex;
+    justify-content: center;/*horizontally center content */
+    align-items: center;/* vertically center content */
+    min-height: 100vh;
+    background-color: #6dbe6d71;
+}
+
+/* styling for the calculator box */
+.calculatorbox{
+    width: 350;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 128, 0, 0.808);
+    background-color: #F7EDF0;
+}
+
+/* styling for labels */
+label{    
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* styling for input fields */
+input{
+    width: 100px;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 25px;
+    border: 2px solid rgba(149, 149, 149, 0.505);
+    color: rgba(0, 0, 0, 0.65);
+}
+
+/* styling for input fields when focused */
+input:focus-visible{
+    outline: 0 solid rgba(0, 128, 0, 0.808); /* Remove default focus outline */
+    border: 2px solid rgba(0, 128, 0, 0.808);/* Change border color on focus */
+    box-shadow: 0 0 3px 1px rgba(0, 128, 0, 0.808);
+    color: rgb(0, 0, 0);
+
+}
+
+/* styling for buttons */
+button{
+    font-size: 14px;
+    background-color: rgba(0, 128, 0, 0.427);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: white;
+    transition: background-color 0.3s ease; /* smooth transition for background color */
+}
+/* hover effect for buttons */
+button:hover{
+    background-color: rgba(0, 128, 0, 0.808);/* c}hange background color on hover */
+
+}
+
+/* styling for total cost display */
+#total-cost{
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 40px;
+    color: #333;
+}

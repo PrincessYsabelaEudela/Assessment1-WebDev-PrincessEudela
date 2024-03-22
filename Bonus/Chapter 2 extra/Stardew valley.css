@@ -1,0 +1,58 @@
+
+.menu{
+    background-color: #0B2869;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+
+}
+.menu a{
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 15px 17px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.menu a:hover{
+    background-color: rgb(174, 175, 222);
+    color: black;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+.stardew{
+    background-color: #FAE893;
+    text-align: center;
+    padding: 30px;
+}
+.stardew a{
+    color: black;
+}
+.stardew a:hover{
+    color: white;
+}
+.fill{
+    background-color: #FAE893;
+    margin-top: -20;
+    padding-left: 50px;
+    padding-right: 50;
+}
+.buttonreadmore{
+    background-color: #0B2869;
+
+}
+.buttonreadmore a{
+    color: white;
+    text-decoration-line: none;
+}
+.buttonreadmore a:hover{
+    color: black;
+}
+.column {
+    width:300px;
+    float:left
+}

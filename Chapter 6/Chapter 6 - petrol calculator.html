@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <!-- link to css file -->
+    <link rel="stylesheet" href="petrol.css" type="text/css">
+    </head>
+    <body>
+        <div class="calculatorbox">
+            <center>
+                <br>
+                <!-- Heading for the petrol calculator -->
+                <h1>Petrol Calculator</h1><br> 
+               
+                <!-- input field for cost per liter -->
+                <!-- the value attribute sets the initial value of the input field to 1.72 -->
+                <!-- step attribute specifies the increment/decrement step for the input field (in this case, by 0.01) -->
+                <label for="petrol-cost">Cost per liter (AED):</label> 
+                <input type="number" value="1.72" step="0.01" id="petrol-cost">
+                
+                <!-- the value attribute sets the initial value of the input field to 0 -->
+                <label for="liters-purchased">Liters purchased:</label>
+                <input type="number" value="0" step="0.01" id="liters-purchased" onchange="calculator(this.value)"><br>
+
+                <button type="button" id="calculate-btn">Calculate</button>
+
+                <p id="total-cost"></p><br>
+           
+            </center>
+        </div>
+
+        <!-- link to js file -->
+        <script src="petrol.js" type="text/javascript"></script>
+
+    </body>
+</html>

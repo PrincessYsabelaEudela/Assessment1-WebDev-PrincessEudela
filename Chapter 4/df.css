@@ -1,0 +1,103 @@
+/* Resetting default margin and font for the body */ 
+body{
+    margin: 0;
+    font-family: arial;
+}
+
+/* styling for the main content area */
+main{
+    display: flex;
+    margin-top: 5;
+    margin-left: 20;
+
+}
+
+h1{
+    font-family: Tahoma; 
+    font-weight: 700; 
+    background-color:#17072b ; 
+    color: #ffffff; 
+    text-underline-offset: auto; 
+    text-align: center;
+    margin: 0;
+    padding: 25px;
+}
+
+/* styling for the navigation bar */
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#17072b ;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li{
+    color: white;
+    padding: 15px 17px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* styling for the welcome section */
+.welcome{
+    font-family: Tahoma; 
+    font-weight: 700; 
+    flex: 4;
+    margin-right: 30;
+}
+
+.welcome p{
+    font-family: arial;
+    font-weight: 400; 
+    display: flex;
+}
+/* styling for the sidebar */
+.sidebar{
+    padding-left: 15px;
+    padding-right: 200;
+    float: right;
+    flex: 1;
+    background-color: #172d67;
+    color: white;
+}
+/* styling for the footer */
+footer{
+    background-color: #8c15e9;
+    color: white;
+    text-align: center;
+    margin-top: 5;
+    padding-inline: 5%;
+}
+
+.sidebar ul{
+    list-style-type: none;
+}
+
+.sidebar li{
+    text-indent: -40px;
+}
+
+.sidebar li::before{
+    content: "- ";
+}
+/* styling for images */
+.image img{
+    width: 100%;
+
+}
+/* styling for images in the sidebar */
+.imgsidebar{
+    display: flex;
+    padding-top: 50px;
+}
+
+.imgsidebar img{
+    width: 75%;
+    float: left;
+    object-fit: cover;
+    flex: 2;
+    padding: 3px;
+}
